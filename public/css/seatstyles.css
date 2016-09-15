@@ -1,0 +1,168 @@
+/*
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   footer
+   {
+   background: #333;
+   color: #eee;
+   font-size: 16px;
+   padding-bottom: 10px;
+
+
+   }
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   ul.unstyled{
+     list-style: none;
+     padding: 0;
+   }
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+     width: 200px;
+   }
+   .navbar-brand{
+     padding:1px 10px;
+   }
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.style1
+{
+  background-color:white;
+  border-color:grey;
+  border-style:ridge;
+  border-radius:7px;
+  height:25px;
+  width:25px;
+}
+
+.style2
+{
+  background-color:lightgrey;
+  border-style: inset;
+  border-radius:7px;
+  height:50px;
+  width:250px;
+}
+.h4style{
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 20px;
+
+
+}
+
+th{
+  height:50px;
+    padding: 10px;
+
+}
+
+p{
+  align-self: center;
+}
+.paymentst{
+  font-size:18px;
+}
+.screen{
+  border-radius: 10px 20px 80px 80px;
+  color: white;
+  text-align: center;
+  background-color:grey;
+  font-family: serif;
+}
+
+
+td{
+  padding: 10px;
+
+}
+.booktd
+{
+  font-size:20px;
+font-family: serif;
+}
+.green{
+  background-color: green;
+}
+.grey{
+background-color: grey;
+
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+#upcomingmovies{
+  margin-top: 10px;
+  background-color: black;
+ margin-left: 4px;
+ margin-bottom: 10px;
+ margin-right: 2px;
+}
+
+#trailers{
+  margin-top: 10px;
+  background-color: black;
+  margin-left: 4px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+div.h3
+{
+  font-size: 50;
+  font-style:normal;
+  font-family: monospace;
+
+}
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

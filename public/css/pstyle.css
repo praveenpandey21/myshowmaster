@@ -1,0 +1,65 @@
+
+.cls{
+          height: 20px;
+          width: 20px;
+          border: 1px solid black;
+        /*  background-color: white; */
+          box-shadow: 2px 2px grey;
+
+    }
+
+
+    .cls{
+      width:23px;
+      height:20px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border:2px solid #4AB7FF;
+      background-color:#CCE3DE;
+      -webkit-box-shadow: #4D5A66 3px 3px 3px;
+      -moz-box-shadow: #4D5A66 3px 3px 3px;
+      box-shadow: #4D5A66 4px 4px 4px;
+}
+/*.d1{
+      background-color: green;
+
+    }*/
+.payheading, .payment{
+      background-color:#1D62AB;
+      border-radius: 5px 50px 5px 50px;
+      padding-left: 50px;
+      height: 35px;
+      color: white;
+}
+    .form-group, #calulation{
+      margin-top: 20px;
+
+    }
+    div h4{
+      padding: 7px;
+    }
+#calulation {
+  background-color: #CED5D9;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.seatType{
+      background-color:#1D62AB;
+      border-radius: 50px 50px 50px 50px;
+      padding-left: 50px;
+      height: 35px;
+      text-align: center;
+      color: white;
+}
+
+
+
+
+.green{
+  background-color: green;
+}
+.grey{
+background-color: grey;
+
+}

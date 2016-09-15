@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="table-responsive">
+        <table class="table-default">
+          <tr>
+            <td><h4>Your City </h4></td>
+              <td><select ng-model="dataCity" class="form-control">
+                <option ng-repeat="n in theaterShow | unique : 'T_City'">{{n.T_City}}<option>
+            </select></td>
+          </tr>
+
+          </table>
+        </div>
+            <br><br>
+            <div class="table-responsive">
+              <table class="table-default" >
+            <tr>
+              <td><h4>Choose Date </h4></td>
+              <td><select ng-model="myDate" class="form-control">
+            <option ng-repeat="x in movDates">{{x  | date:'dd, MMM yyyy'}}</option>
+        </select></td>
+
+            </tr>
+          </table>
+        </div>
+
+<br><br><br><br><br><br>
+
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr class="danger">
+
+      <h5><th>Theater</th></h5>
+      <h5><th>Movie</th></h5>
+        <h5><th>City</th></h5>
+        <h5><th>Show Dates</th></h5>
+        <h5><th>Show Timings</th></h5>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-show="myDate" ng-repeat="x in mappingData | filter:myDate | filter:dataCity" class="success">
+        <td>{{x.Cinema}}</td>
+        <td>{{x.Title}}</td>
+        <td>{{x.City}}</td>
+        <td>{{x.ShowDate | date:'dd, MMMM yyyy' }}</td>
+        <td ng-repeat="a in x.TimeSlot"><button type="button" class="btn btn-link" ng-click="showTimings(a,x)">{{a}}</button></td>
+      </tr>
+  </tbody>
+  </table>
+
+</div>
+</div>
+</div>

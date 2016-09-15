@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="MovieApp">
+  <head>
+
+    <meta charset="utf-8">
+    <title>BOOk MY MOVie</title>
+    <script type="text/javascript" src="/build/bundle.js"></script>
+    <script type="text/javascript" src="js/angular-filter.min.js"></script>
+    <link rel="stylesheet" href="css/pay.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/pstyle.css">
+    <link rel="stylesheet" href="css/omdb.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/mycss.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+   <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+   <link rel="stylesheet" href="css/star.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="/js/star-rating.js" type="text/javascript"></script>
+
+
+
+  </head>
+  <body>
+    <div class="container" style="padding-top: 10px;">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default navbar-inverse " role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              </button> <a class="navbar-brand" href="#/">BOOk MY MOVie</a>
+                    </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="#/">Movies</a>
+                </li>
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                        <a href="#/review">Rating</a>
+                      </li>
+                <li>
+                      <a href="#/signup">New User ?</a>
+                    </li>
+                    <li class="divider">
+                    </li>
+                    <li>
+                      <a href="#/login">Sign In</a>
+                    </li>
+          </ul>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+
+
+    <div ng-view>
+
+        </div>
+
+      </div>
+
+      <br><br><br><br><br><br><br><br><br>
+<!--  footer code-->
+        <div class="container-fluid">
+        	<div class="row">
+        		<div class="col-md-12">
+        			<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        				<div class="navbar-header">
+
+
+        				</div>
+
+        				<div class="collapse navbar-collapse">
+
+        				<p style="color:white">	&copy; NIIT LTD.  2016-2017</p>
+
+        				</div>
+
+        			</nav>
+        		</div>
+        	</div>
+        </div>
+
+
+  </body>
+</html>
